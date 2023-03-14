@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+  }
+  
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    color: crimson;
+  }
+  
+  .game-cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #10db87d3;
+    border: 1px solid #10db87d3;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+  }
+  h1 {
+    color: rgb(138, 75, 4);
+  }
+  h2 {
+    color: blue;
+  }
+  button {
+    color: rgb(40, 43, 39);
+    background-color: rgb(109, 81, 4);
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    } 
+
+ 
+  
